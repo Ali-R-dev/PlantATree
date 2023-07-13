@@ -1,0 +1,138 @@
+body {
+  font-family: Calibri, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  align-items: center;
+  border-top: 5px solid rgb(11, 39, 11);
+}
+#logo-container {
+  width: 92px;
+  height: auto;
+  float: left;
+  margin: 0 0 0 13%;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+ul {
+  margin-left: 10%;
+  list-style-type: none;
+  overflow: hidden;
+  float: right;
+}
+
+header li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 19px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+li a:hover {
+  color: rgb(91, 179, 91);
+}
+#title {
+  color: rgb(91, 179, 91);
+  display: block;
+  font-size: x-large;
+}
+
+.txt-section {
+  margin: 4%;
+  display: block;
+  color: white;
+  text-align: center;
+  width: 40%;
+}
+
+.body-image {
+  width: 40%;
+  height: auto;
+  display: inline-block;
+  margin: 4%;
+  border: 1px solid white;
+}
+.sections {
+  overflow: hidden;
+  padding: 4% 2% 4% 2%;
+}
+#home {
+  background-color: #5f8575;
+}
+#home .txt-section {
+  float: left;
+}
+#benefits {
+  background-color: #8a9a5b;
+}
+
+#benefits .txt-section {
+  float: right;
+  color: white;
+}
+
+#planting {
+  background-color: #008080;
+}
+#planting .txt-section {
+  float: left;
+  color: white;
+}
+#species {
+  background-color: #009e60;
+}
+#species .txt-section {
+  float: left;
+  color: white;
+}
+#species .body-image {
+  width: 30%;
+}
+#care {
+  background-color: #008080;
+}
+#care .txt-section {
+  float: left;
+  color: white;
+}
+/* Footer section */
+#footer {
+  background-color: #228b22;
+  height: 50px;
+  align-items: center;
+  padding: 5px;
+}
+#footer a {
+  text-decoration: none;
+  color: white;
+}
+
+#footer a:hover {
+  color: #dfff00;
+}
+#txt-footer {
+  display: block;
+  width: 50%;
+  float: left;
+  text-align: end;
+  margin: 5px;
+}
+
+#img-footer {
+  width: 30px;
+  height: auto;
+  display: inline-block;
+}
+#img-footer img {
+  background-color: inherit;
+}
